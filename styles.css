@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(218, 241, 248);
+    color: black;
+    .acme-regular {
+        font-family: "Acme", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }      
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:10%;
+    margin: 20px;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+    width: flex;
+    .acme-regular {
+        font-family: "Acme", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+    }
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{
+    text-decoration: center;
+    max-width: 90%;
+}
+img{
+    max-width: 600px;
+    max-height: 300px;
+    margin-left: 400px;
+}

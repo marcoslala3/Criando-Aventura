@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>Quiz de Biologia</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Seja bem-vindo ao nosso Quiz de Biologia!</p>
+            <button class="btn-proximo" data-proximo="1">Iniciar</button>
+            <button class="btn-proximo" data-proximo="2">Desistir</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Qual é a função dos lisossomos nas células</p>
+            <button class="btn-proximo" data-proximo="4">São responsáveis pela digestão e degradação de substâcia dentro da células</button>
+            <button class="btn-proximo" data-proximo="3">Possui cloroplastos para realizar fotossíntese</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Desistir não deveria existir no seu vocabulário! Desafie-se nessa aventura do conhecimento.</p>
+            <img src="vetorecomecar.jpg" alt="">
+            <button class="btn-proximo" data-proximo="1">Entrar na aventura</button>
+            
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Hum... que tal</p>
+            <img src="tenteoutravez.jpeg" alt="">
+            <button class="btn-proximo" data-proximo="1">Tentar novamente</button>
+            <button class="btn-proximo" data-proximo="2">Desistir</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Qual é a molécula responsável pelo armazenamento de energia nas células?</p>
+            <button class="btn-proximo" data-proximo="5">ATP</button>
+            <button class="btn-proximo" data-proximo="3">RNA</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O que é a fotossíntese?</p>
+            <button class="btn-proximo" data-proximo="6">A conversão de energia solar em energia química por plantas e algas</button>
+            <button class="btn-proximo" data-proximo="3">A decomposição de matéria orgânica</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Qual é a função do sistema circulatório nos animais?</p>
+            <button class="btn-proximo" data-proximo="3">Facilitar a digestão de alimentos</button>
+            <button class="btn-proximo" data-proximo="7">Transportar oxigênio e nutrientes pelo corpo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O que é a mitose?</p>
+            <button class="btn-proximo" data-proximo="8">Divisão celular que resulta em duas células geneticamente idênticas </button>
+            <button class="btn-proximo" data-proximo="3">Formação de novas organelas</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Parabéns você concluiu essa aventura do conhecimento</p>
+            <img src="images.jpeg" alt="">
+            <button class="btn-proximo" data-proximo="0">Finalizar ou Recomeçar</button>
+        </div>
+        
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
